@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="greendustbd.simplewebapiapp.Details">
+
+    <TextView
+        android:id="@+id/mtitle"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mtime"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mdetails"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
